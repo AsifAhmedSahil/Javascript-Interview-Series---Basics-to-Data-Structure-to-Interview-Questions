@@ -13,4 +13,9 @@ it means the execution time of an algorithm remains constant
 ## O(n^2)
 it means the algorithm execution time grows quadratically ==> applicable for nested loops ***
 
+## O(log n)
+it means the time complezity of the algorithm runtime grows logarithmitically ==> like if the input size increase then the time taken by the algorithm ti run increases slowly
+
+
+
 
