@@ -37,3 +37,10 @@ Return type of variables in JavaScript
        Arrays  =>  object
        Function  =>  function
        Object  =>  object
+
+## stack & heap
+stack == (premitive data type) && heaps == (non-premitive data type)
+
+stack refer copy of the data and if change the data then the original one remains constants.
+
+heap refer direct original data then if change data then both are change, for example of one object contains user email then if refer the object and change the email then it change both objects. 
