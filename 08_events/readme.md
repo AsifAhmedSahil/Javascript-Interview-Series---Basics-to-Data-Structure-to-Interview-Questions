@@ -79,6 +79,26 @@ document.getElementById('images').addEventListener('click', function(e){
 explore events 
 
 
+<!-- settitme out and clear  time out  -->
+## SetTimeout & ClearTimeout
+
+settimeout call korar por oita ke jodi akta variable e set kori then stop button click korar por jodi clearTimeout call kori and oi cleartime out er moddeh setTimeout er reference ta dia dee then r setTimeOut call hobe na****
+
+```
+     const changeText = function(){
+        document.querySelector("h1").innerHTML = "best javascript course "
+
+    }
+
+    const changeMe = setTimeout(changeText, 2000);
+
+    document.querySelector("#stop").addEventListener("click",function(){
+        clearTimeout(changeMe)
+    })
+```
+
+
+
 ### Async Javascript notes
 
 # javascript asynchronous language but it's default behaviour is synchronous
