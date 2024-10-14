@@ -21,7 +21,7 @@ class Teacher extends User {
      }
 }
 
-const sahil = new Teacher("sahil")
-sahil.addCourse()
+// const sahil = new Teacher("sahil")
+// sahil.addCourse()
 
-console.log()
+// console.log()
