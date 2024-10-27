@@ -1,4 +1,5 @@
 // * this is not the better solution, make it better in upcoming code
+// *update
 
 const twoSum = (nums,target) =>{
     for(let i = 0; i<nums.length; i++){
