@@ -1,10 +1,10 @@
 function removeDuplicates(arr) {
   let uniqueArr = [];
 
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i <= arr.length-1; i++) {
     let isDuplicate = false;
-    for (let j = 0; j < uniqueArr.length; j++) {
-      if (arr[i] === uniqueArr[j]) {
+    for (let j = 0; j <= uniqueArr.length-1; j++) {
+      if (arr[i] == uniqueArr[j]) {
         isDuplicate = true;
         break;
       }
